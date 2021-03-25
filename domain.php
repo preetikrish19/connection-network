@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    
-  </body>
+<html>
+<head>
+<style>
+body {
+  background-image: url(background.jpeg);
+  background-repeat: no-repeat;
+        background-size: cover;
+}
+</style>
+</head>
+<body>
+</body>
 </html>
