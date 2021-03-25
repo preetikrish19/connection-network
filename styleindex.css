@@ -2,7 +2,15 @@
     img {
       margin-right: 150px;
     }
+    .carousel-inner img {
+        width: 100%;
+        height: 300px;
+      }
   }
 .menustyle{
     justify-content:flex-end;
 }
+.carousel-inner img {
+    width: 100%;
+    height: 600px;
+  }
