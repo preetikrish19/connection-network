@@ -1,0 +1,10 @@
+ul li{
+  display: inline;
+}
+.fa{
+  padding: 20px;
+}
+.fa {
+  background: black;
+  color: white;
+}

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Connection | Home</title>
+  <title>Connection | Enroll</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -11,7 +11,6 @@
   <link rel = "stylesheet" href = "styleindex.css">
 </head>
 <body id="enroll">
-</body>
 <div class = "box">
 <form action="enrolldetails.php">
     <div class="form-group">
@@ -32,4 +31,5 @@
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>
 </div>
+</body>
 </html>
