@@ -35,6 +35,12 @@
       <a class="nav-link" href="#">Be a mentor</a>
     </li>
     <li class="nav-item">
+      <a class="nav-link" href="#">Enroll</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Domains</a>
+    </li>
+    <li class="nav-item">
       <a class="nav-link" href="#">Contact</a>
     </li>
   </ul>
