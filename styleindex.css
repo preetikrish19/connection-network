@@ -3,3 +3,6 @@
       margin-right: 150px;
     }
   }
+.menustyle{
+    justify-content:flex-end;
+}

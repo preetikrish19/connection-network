@@ -14,14 +14,13 @@
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-end">
 <a class="navbar-brand" href="#">
-    <img src="images/logo.jpeg" alt="logo" style="width:100px;height:50px">
+    <img src="images/logo.jpeg" alt="logo" style="width:80px;height:50px">
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
   
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-  
+  <div class="collapse navbar-collapse" id="collapsibleNavbar" class = "navbar justify-content-end">
   <ul class="navbar-nav">
     <li class="nav-item">
       <a class="nav-link" href="#">Home</a>
@@ -41,25 +40,52 @@
   </ul>
   </div>  
 </nav>
+<style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 600px;
+  }
+  </style>
+</head>
+<body>
 
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-end">
-<a class="navbar-brand" href="#">
-    <img src="images/logo.jpeg" alt="logo" style="width:100px;height:50px">
-  </a>
- 
-  <ul class="navbar-nav">
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link 1</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link 2</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link 3</a>
-    </li>
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
   </ul>
-
-</nav>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/imf.jpg" alt="Los Angeles" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>Los Angeles</h3>
+        <p>We had such a great time in LA!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="images/imf.jpg" alt="Chicago" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>Chicago</h3>
+        <p>Thank you, Chicago!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="images/imf.jpg" alt="New York" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>New York</h3>
+        <p>We love the Big Apple!</p>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
 </body>
 </html>
 
