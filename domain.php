@@ -1,3 +1,6 @@
+<?php
+  session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,7 +24,7 @@ body {
 <h1 class = "text-white" style = "text-align:center">Domains</h2>
 <div class="row">
   <div class="container">
- 
+
 <div class="row">
   <div class="col-sm-4">
     <div class="card" style="width:335px">
@@ -42,7 +45,7 @@ body {
     </div>
   </div>
   </div>
-  
+
   <div class="col-sm-4">
     <div class="card" style="width:335px">
     <img class="card-img-top" src="images/dbms.jpg" alt="Card image" style="width:100%; height: 350px">
@@ -56,7 +59,7 @@ body {
 </div>
 
 <div class = "row">
-  
+
   <div class="col-sm-4">
     <div class="card" style="width:335px">
     <img class="card-img-top" src="images/python.jfif" alt="Card image" style="width:100%; height: 350px">

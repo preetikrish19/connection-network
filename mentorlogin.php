@@ -93,7 +93,7 @@
         clear: both;
         width: 100%;
         box-sizing: border-box;
-        height: 700px;
+        height: 780px;
         }
         .login-form{
           background: #fff;
@@ -177,7 +177,7 @@
           <input type="number" min="1" max="4" placeholder="Year" name="year" class="form-control" required><br />
           <label for="domain" class="form-control">Please select your domain</label>
           <input type="radio" name="domain" value="1" class="">
-          <label for="webdevelopment">Web development</label><br>
+          <label for="DSA">DSA</label><br>
           <input type="radio" name="domain" value="2" class="">
           <label for="c">C programming</label><br>
           <input type="radio" name="domain" value="3" class="">
