@@ -56,7 +56,7 @@ body {
     <img class="card-img-top" src="images/dbms.jpg" alt="Card image" style="width:100%; height: 400px">
     <div class="card-body">
       <h4 class="card-title">DBMS</h4>
-      <a href="#" class="btn btn-primary">know more!</a>
+      <a href="dbms.php" class="btn btn-primary">know more!</a>
     </div>
   </div>
   </div>
@@ -70,7 +70,7 @@ body {
     <img class="card-img-top" src="images/python.jfif" alt="Card image" style="width:100%; height: 400px">
     <div class="card-body">
       <h4 class="card-title">PYTHON</h4>
-      <a href="#" class="btn btn-primary">know more!</a>
+      <a href="python.php" class="btn btn-primary">know more!</a>
     </div>
   </div>
   </div>
@@ -80,7 +80,7 @@ body {
     <img class="card-img-top" src="images/c.png" alt="Card image" style="width:100% height:400px">
     <div class="card-body">
       <h4 class="card-title">c programming</h4>
-      <a href="#" class="btn btn-primary">know more!</a>
+      <a href="cprogramming.php" class="btn btn-primary">know more!</a>
     </div>
   </div>
   </div>
@@ -90,7 +90,7 @@ body {
     <img class="card-img-top" src="images/os.jpg" alt="Card image" style="width:100%; height: 400px">
     <div class="card-body">
       <h4 class="card-title">Operating Systems</h4>
-      <a href="#" class="btn btn-primary">know more!</a>
+      <a href="os.php" class="btn btn-primary">know more!</a>
     </div>
   </div>
   </div>
