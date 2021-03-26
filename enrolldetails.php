@@ -15,7 +15,7 @@ session_start();
   {
     echo "<script>";
 	echo "alert('Enrolled Successfully');";
-	/*echo "window.location.href = 'index.php';";*/
+	echo "window.location.href = 'index.php';";
 	echo "</script>";
   }
   else{
@@ -24,7 +24,7 @@ session_start();
   if($con->query($sql1)){
     echo "<script>";
 	echo "alert('Enrolled Successfully');";
-	/*echo "window.location.href = 'index.php';";*/
+	echo "window.location.href = 'index.php';";
 	echo "</script>";
   }
   else{

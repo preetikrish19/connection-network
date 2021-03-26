@@ -31,7 +31,7 @@ if($_SESSION['login'] == 0){
       <a class="nav-link" href="#">Home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="index.php#about">About</a>
+      <a class="nav-link" href="#about">About</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="mentorlist.php">Find a mentor</a>
@@ -58,30 +58,28 @@ if($_SESSION['login'] == 0){
 </nav>
 
 <body>
-
 <div id="demo" class="carousel slide" data-ride="carousel">
   <ul class="carousel-indicators">
     <li data-target="#demo" data-slide-to="0" class="active"></li>
     <li data-target="#demo" data-slide-to="1"></li>
     <li data-target="#demo" data-slide-to="2"></li>
   </ul>
-  <div class="carousel-inner">
+<div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="images/imf.jpg" alt="Los Angeles">
+      <img src="images/mentor mentee.jpg" alt="Los Angeles">
       <div class="carousel-caption">
-        <h3>Los Angeles</h3>
-        <p>We had such a great time in LA!</p>
-      </div>
+        <h3>We’re here for a reason. I believe a bit of the reason</h3>
+        <h3>is to throw little torches out to lead people through the dark</h3>
+      </div>   
     </div>
     <div class="carousel-item">
-      <img src="images/imf.jpg" alt="Chicago">
+      <img src="images/mentor mentee(1).jpeg" alt="Chicago">
       <div class="carousel-caption">
-        <h3>Chicago</h3>
-        <p>Thank you, Chicago!</p>
-      </div>
+        <h3>Consultant | Counselor | Cheerleader</h3>
+      </div>   
     </div>
     <div class="carousel-item">
-      <img src="images/imf.jpg" alt="New York">
+      <img src="images/mentor mentee(2).jpeg" alt="New York">
       <div class="carousel-caption">
         <h3>New York</h3>
         <p>We love the Big Apple!</p>
@@ -95,7 +93,24 @@ if($_SESSION['login'] == 0){
     <span class="carousel-control-next-icon"></span>
   </a>
 </div>
-hiii
+<div id="about" class = "grid-container">
+    <div class = "grid-child">
+        <img src = "images/imf.jpg" style = "height:400px;width:600px">
+</div>
+<div class = "grid-child">
+    <h1 id="heading">About</h1>
+    <p>
+    Computer technology has become an integral part of our daily life. It is the most important element in the education
+     of students of the present and the future era. Computer Technology has revolutionized society to a great extent. 
+     Technological advancements are so rapid in this field that continual learning is essential to keep the skill set 
+     of students up to date. The department of Computer Technology was recently established in MIT campus of Anna University 
+     by bifurcating the department of Information Technology. The department offers course in computer science and engineering 
+     at undergraduate & postgraduate levels and full time/part time research programs. 
+    The teaching and learning process emphasizes equally on theoretical and practical aspects catering to the needs of industries.
+ </p>
+     </div>
+</div>
+
 <div id="footer">
 
 <?php
@@ -136,7 +151,7 @@ hiii
       <a class="nav-link" href="#">Home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">About</a>
+      <a class="nav-link" href="#about">About</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="mentorlist.php">Find a mentor</a>
@@ -199,7 +214,23 @@ hiii
     <span class="carousel-control-next-icon"></span>
   </a>
 </div>
-hiii
+<div id="about" class = "grid-container">
+    <div class = "grid-child">
+        <img src = "images/imf.jpg" style = "height:400px;width:600px">
+</div>
+<div class = "grid-child">
+    <h1 id="heading">About</h1>
+    <p>
+    Computer technology has become an integral part of our daily life. It is the most important element in the education
+     of students of the present and the future era. Computer Technology has revolutionized society to a great extent. 
+     Technological advancements are so rapid in this field that continual learning is essential to keep the skill set 
+     of students up to date. The department of Computer Technology was recently established in MIT campus of Anna University 
+     by bifurcating the department of Information Technology. The department offers course in computer science and engineering 
+     at undergraduate & postgraduate levels and full time/part time research programs. 
+    The teaching and learning process emphasizes equally on theoretical and practical aspects catering to the needs of industries.
+ </p>
+     </div>
+</div>
 <div id="footer">
 
 <?php
@@ -224,7 +255,7 @@ hiii
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
    <link rel = "stylesheet" href = "styleindex.css">
  </head>
- <body class = "bg-dark">
+ <body">
 
  <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-end">
  <a class="navbar-brand" href="#">
@@ -240,7 +271,7 @@ hiii
        <a class="nav-link" href="#">Home</a>
      </li>
      <li class="nav-item">
-       <a class="nav-link" href="#">About</a>
+       <a class="nav-link" href="#about">About</a>
      </li>
      <li class="nav-item">
        <a class="nav-link" href="mentorlist.php">Find a mentor</a>
@@ -273,28 +304,27 @@ hiii
      <li data-target="#demo" data-slide-to="2"></li>
    </ul>
    <div class="carousel-inner">
-     <div class="carousel-item active">
-       <img src="images/imf.jpg" alt="Los Angeles">
-       <div class="carousel-caption">
-         <h3>Los Angeles</h3>
-         <p>We had such a great time in LA!</p>
-       </div>
-     </div>
-     <div class="carousel-item">
-       <img src="images/imf.jpg" alt="Chicago">
-       <div class="carousel-caption">
-         <h3>Chicago</h3>
-         <p>Thank you, Chicago!</p>
-       </div>
-     </div>
-     <div class="carousel-item">
-       <img src="images/imf.jpg" alt="New York">
-       <div class="carousel-caption">
-         <h3>New York</h3>
-         <p>We love the Big Apple!</p>
-       </div>
-     </div>
-   </div>
+    <div class="carousel-item active">
+      <img src="images/mentor mentee.jpg" alt="Los Angeles">
+      <div class="carousel-caption">
+        <h3>We’re here for a reason. I believe a bit of the reason</h3>
+        <h3>is to throw little torches out to lead people through the dark</h3>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="images/mentor mentee(1).jpeg" alt="Chicago">
+      <div class="carousel-caption">
+        <h3>Consultant | Counselor | Cheerleader</h3>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="images/mentor mentee(2).jpeg" alt="New York">
+      <div class="carousel-caption">
+        <h3>New York</h3>
+        <p>We love the Big Apple!</p>
+      </div>
+    </div>
+  </div>
    <a class="carousel-control-prev" href="#demo" data-slide="prev">
      <span class="carousel-control-prev-icon"></span>
    </a>
@@ -302,7 +332,23 @@ hiii
      <span class="carousel-control-next-icon"></span>
    </a>
  </div>
- hiii
+ <div id="about" class = "grid-container">
+    <div class = "grid-child">
+        <img src = "images/imf.jpg" style = "height:400px;width:600px">
+</div>
+<div class = "grid-child">
+    <h1 id="heading">About</h1>
+    <p>
+    Computer technology has become an integral part of our daily life. It is the most important element in the education
+     of students of the present and the future era. Computer Technology has revolutionized society to a great extent. 
+     Technological advancements are so rapid in this field that continual learning is essential to keep the skill set 
+     of students up to date. The department of Computer Technology was recently established in MIT campus of Anna University 
+     by bifurcating the department of Information Technology. The department offers course in computer science and engineering 
+     at undergraduate & postgraduate levels and full time/part time research programs. 
+    The teaching and learning process emphasizes equally on theoretical and practical aspects catering to the needs of industries.
+ </p>
+     </div>
+</div>
  <div id="footer">
 
  <?php
