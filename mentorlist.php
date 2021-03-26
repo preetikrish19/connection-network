@@ -17,61 +17,37 @@ else{
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <link rel = "stylesheet" href = "styleindex.css">
+  <style>
+  body {
+  background-image: url(images/background.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+background-size: cover;
+}</style>
   <body>
   <div class="container">
- 
+<h1 class = "text-white" style = "text-align:center">Our Mentors</h2>
 <div class="row">
+<?php
+    while($row = mysqli_fetch_assoc($result)){
+?>
   <div class="col-sm-4">
     <div class="card" style="width:340px">
     <img class="card-img-top" src="images/person.png" alt="Card image" style="width:100%">
     <div class="card-body">
-      <h4 class="card-title">John Doe</h4>
-      <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+      <h4 class="card-title"><?php echo $row['name'];?></h4>
+      <p class="card-text"><?php echo $row['description'];?></p>
+      
       <a href="#" class="btn btn-primary">See Profile</a>
     </div>
   </div>
   </div>
-
-  <div class="col-sm-4">
-    <div class="card" style="width:340px">
-    <img class="card-img-top" src="images/person.png" alt="Card image" style="width:100%">
-    <div class="card-body">
-      <h4 class="card-title">John Doe</h4>
-      <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-      <a href="#" class="btn btn-primary">See Profile</a>
-    </div>
-  </div>
-  </div>
-  
-  <div class="col-sm-4">
-    <div class="card" style="width:340px">
-    <img class="card-img-top" src="images/person.png" alt="Card image" style="width:100%">
-    <div class="card-body">
-      <h4 class="card-title">John Doe</h4>
-      <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-      <a href="#" class="btn btn-primary">See Profile</a>
-    </div>
-  </div>
-  </div>
-
+  <?php
+    }
+?>
+</div>
 </div>
 
-<div class = "row">
-  
-  <div class="col-sm-4">
-    <div class="card" style="width:340px">
-    <img class="card-img-top" src="images/person.png" alt="Card image" style="width:100%">
-    <div class="card-body">
-      <h4 class="card-title">John Doe</h4>
-      <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-      <a href="#" class="btn btn-primary">See Profile</a>
-    </div>
-  </div>
-  </div>
-
-</div>
-
-</div>
 </body>
 </html>
 <?php
