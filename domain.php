@@ -36,7 +36,7 @@ body {
     <img class="card-img-top" src="images/c ++.png" alt="Card image" style="width:100%; height: 400px">
     <div class="card-body">
       <h4 class="card-title">C++ Programming</h4>
-      <a href="#" class="btn btn-primary">know more!</a>
+      <a href="cplusplus.php" class="btn btn-primary">know more!</a>
     </div>
   </div>
   </div>
@@ -46,7 +46,7 @@ body {
     <img class="card-img-top" src="images/DSA(1).png" alt="Card image" style="width:100%; height: 400px">
     <div class="card-body">
       <h4 class="card-title">DSA</h4>
-      <a href="#" class="btn btn-primary">know more!</a>
+      <a href="dsa.php" class="btn btn-primary">know more!</a>
     </div>
   </div>
   </div>
