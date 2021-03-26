@@ -24,11 +24,11 @@
     opacity: 0.8;
   }
   #enroll{
-    background-image: url("images/enroll.jpg");
+    background-image: url("images/background.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 620px;
     top: 0;
     bottom: 0;
     }
@@ -41,3 +41,4 @@
       top: 0;
       bottom: 0;
     }
+    

@@ -12,23 +12,23 @@
 </head>
 <body id="enroll">
 <div class = "box">
-<form action="enrolldetails.php">
+<form action="enrolldetails.php" method = "post">
     <div class="form-group">
-      <input type="email" class="form-control" id="email" placeholder="Name" name="email">
+      <input type="text" class="form-control" id="name" placeholder="Name" name="name" required>
     </div>
     <div class="form-group">
-      <input type="password" class="form-control" id="pwd" placeholder="Email" name="pswd">
+      <input type="email" class="form-control" id="email" placeholder="Email" name="email" required>
     </div>
     <div class="form-group">
-      <input type="password" class="form-control" id="pwd" placeholder="Year of study" name="pswd">
+      <input type="text" class="form-control" id="year" placeholder="Year of study" name="year" required>
     </div>
     <div class="form-group">
-      <input type="password" class="form-control" id="pwd" placeholder="Password" name="pswd">
+      <input type="password" class="form-control" id="password" placeholder="Password" name="password" required>
     </div>
     <div class="form-group">
-      <input type="password" class="form-control" id="pwd" placeholder="Department" name="pswd">
+      <input type="varchar" class="form-control" id="department" placeholder="Department" name="department" required>
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" name = "submit" value = "submit" class="btn btn-primary">Submit</button>
   </form>
 </div>
 </body>
