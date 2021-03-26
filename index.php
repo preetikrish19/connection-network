@@ -58,21 +58,20 @@
   </ul>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="images/imf.jpg" alt="Los Angeles">
+      <img src="images/mentor mentee.jpg" alt="Los Angeles">
       <div class="carousel-caption">
-        <h3>Los Angeles</h3>
-        <p>We had such a great time in LA!</p>
+        <h3>We’re here for a reason. I believe a bit of the reason</h3>
+        <h3>is to throw little torches out to lead people through the dark</h3>
       </div>   
     </div>
     <div class="carousel-item">
-      <img src="images/imf.jpg" alt="Chicago">
+      <img src="images/mentor mentee(1).jpeg" alt="Chicago">
       <div class="carousel-caption">
-        <h3>Chicago</h3>
-        <p>Thank you, Chicago!</p>
+        <h3>Consultant | Counselor | Cheerleader</h3>
       </div>   
     </div>
     <div class="carousel-item">
-      <img src="images/imf.jpg" alt="New York">
+      <img src="images/mentor mentee(2).jpeg" alt="New York">
       <div class="carousel-caption">
         <h3>New York</h3>
         <p>We love the Big Apple!</p>
