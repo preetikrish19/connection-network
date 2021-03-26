@@ -8,3 +8,9 @@ ul li{
   background: black;
   color: white;
 }
+.card
+{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
