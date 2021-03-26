@@ -1,7 +1,7 @@
-
 <?php
 session_start();
-if($_SESSION['login']==0){
+if(isset($_SESSION['login'])){
+if($_SESSION['login'] == 0){
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -49,7 +49,7 @@ if($_SESSION['login']==0){
     </li>
     <li class="nav-item">
       <a class="nav-link" href="index.php#footer">Contact</a>
-    </li
+</li>
     <li class="nav-item">
       <a class="nav-link" href="logout.php">Log out</a>
     </li>
@@ -141,18 +141,22 @@ hiii
     <li class="nav-item">
       <a class="nav-link" href="#">Find a mentor</a>
     </li>
+    <!--
     <li class="nav-item">
       <a class="nav-link" href="mentorlogin.php">Be a mentor</a>
-    </li><!--
+    </li>
     <li class="nav-item">
       <a class="nav-link" href="enroll.php">Enroll</a>
-    </li>
+    </li>-->
     <li class="nav-item">
       <a class="nav-link" href="domain.php">Domains</a>
     </li>
-  -->
+
     <li class="nav-item">
       <a class="nav-link" href="index.php#footer">Contact</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="logout.php">Log out</a>
     </li>
   </ul>
   </div>
@@ -206,7 +210,7 @@ hiii
 
 </body>
 </html>
-<?php }
+<?php }}
  else {
  ?>
  <!DOCTYPE html>
@@ -256,6 +260,7 @@ hiii
      <li class="nav-item">
        <a class="nav-link" href="index.php#footer">Contact</a>
      </li>
+    
    </ul>
    </div>
  </nav>
