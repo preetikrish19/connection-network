@@ -3,6 +3,10 @@ session_start();
 <<<<<<< Updated upstream
 if(isset($_SESSION['login'])){
 if($_SESSION['login'] == 0){
+=======
+echo $_SESSION['login'];
+if($_SESSION['login']==0){
+>>>>>>> Stashed changes
 ?>
 <!DOCTYPE html>
 <html lang="en">
