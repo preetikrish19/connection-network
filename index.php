@@ -31,7 +31,7 @@ if($_SESSION['login'] == 0){
       <a class="nav-link" href="#">Home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">About</a>
+      <a class="nav-link" href="index.php#about">About</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="mentorlist.php">Find a mentor</a>
