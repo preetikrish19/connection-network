@@ -32,7 +32,7 @@
         $(".btn").click(function(){
         $(".input").val("");
       });
-        
+
       });
     </script>
     <title></title>
@@ -72,7 +72,7 @@
         clear: both;
         width: 100%;
         box-sizing: border-box;
-        height: 700px;
+        height: 400px;
         }
         .login-form{
           background: #fff;
@@ -135,7 +135,7 @@
         font-family: roboto;
         }
         .null{
-          height: 30px;
+          height: 100px;
         }
     </style>
   </head>

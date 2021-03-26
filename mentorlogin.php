@@ -156,7 +156,7 @@
         font-family: roboto;
         }
         .null{
-          height: 30px;
+          height: 60px;
         }
     </style>
   </head>
@@ -183,7 +183,11 @@
           <input type="radio" name="domain" value="3" class="">
           <label for="dbms">DBMS</label><br>
           <input type="radio" name="domain" value="4" class="">
-          <label for="dbms">OS</label><br>
+          <label for="os">OS</label><br>
+          <input type="radio" name="domain" value="5" class="">
+          <label for="c++">C++</label><br>
+          <input type="radio" name="domain" value="6" class="">
+          <label for="python">Python</label><br>
           <textarea class="form-control" rows="5" cols="80" placeholder="Acheivements Description" name="description" required></textarea><br>
           <button type="submit" class="btn btn-primary">Submit</button>
           <div id="result1"></div>

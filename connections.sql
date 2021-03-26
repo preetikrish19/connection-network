@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Mar 26, 2021 at 10:14 AM
+-- Generation Time: Mar 26, 2021 at 12:48 PM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.2.34
 
@@ -24,14 +24,39 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `chat`
+--
+
+CREATE TABLE `chat` (
+  `chat_id` int(11) NOT NULL,
+  `username` text NOT NULL,
+  `message` text NOT NULL,
+  `time` timestamp NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `domain`
 --
 
 CREATE TABLE `domain` (
   `did` int(11) NOT NULL,
-  `dname` int(11) NOT NULL,
-  `ddescription` int(11) NOT NULL
+  `dname` text NOT NULL,
+  `ddescription` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `domain`
+--
+
+INSERT INTO `domain` (`did`, `dname`, `ddescription`) VALUES
+(1, 'Web development', 'cs'),
+(2, 'C programming', 'cs'),
+(3, 'DBMS', 'cs'),
+(4, 'Operating system', 'cs'),
+(5, 'C++ Programming', 'cs'),
+(6, 'Python', 'cs');
 
 -- --------------------------------------------------------
 
@@ -80,7 +105,7 @@ CREATE TABLE `mentordetails` (
 INSERT INTO `mentordetails` (`mid`, `email`, `name`, `password`, `year`, `domain`, `description`, `display`) VALUES
 (1, 'y@mail.com', 'jueh', '4343', 4, 2, 'bhalllll', 1),
 (2, 'u@mai.com', 'njendkjnejkdn', '23', 1, 3, 'jkdjhfjrhnfjirf', 1),
-(3, 'bmspr1502@gmail.com', 'Preeti krishnaveni', 'asdfasdfasd', 3, 4, 'asdfasdfasgsfgfgasfgaf', 1),
+(3, 'test@gmail.com', 'Preeti krishnaveni', 'test', 3, 4, 'asdfasdfasgsfgfgasfgaf', 1),
 (4, 'fadsf', 'aefdf', 'fasdfasdf', 3, 2, 'fdasfasf', 1),
 (5, 'r@gmail.com', 'Pinky', 'rat@123456', 2, 1, 'uuuuuuuu', 1);
 
@@ -116,6 +141,12 @@ INSERT INTO `user` (`id`, `username`, `studentemail`, `mentoremail`, `sender_id`
 --
 
 --
+-- Indexes for table `chat`
+--
+ALTER TABLE `chat`
+  ADD PRIMARY KEY (`chat_id`);
+
+--
 -- Indexes for table `domain`
 --
 ALTER TABLE `domain`
@@ -146,10 +177,16 @@ ALTER TABLE `user`
 --
 
 --
+-- AUTO_INCREMENT for table `chat`
+--
+ALTER TABLE `chat`
+  MODIFY `chat_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+
+--
 -- AUTO_INCREMENT for table `domain`
 --
 ALTER TABLE `domain`
-  MODIFY `did` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `did` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT for table `enrolldetails`
