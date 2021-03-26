@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Mar 26, 2021 at 12:48 PM
+-- Generation Time: Mar 26, 2021 at 04:58 PM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.2.34
 
@@ -51,7 +51,7 @@ CREATE TABLE `domain` (
 --
 
 INSERT INTO `domain` (`did`, `dname`, `ddescription`) VALUES
-(1, 'Web development', 'cs'),
+(1, 'DSA', 'cs'),
 (2, 'C programming', 'cs'),
 (3, 'DBMS', 'cs'),
 (4, 'Operating system', 'cs'),
@@ -79,7 +79,9 @@ CREATE TABLE `enrolldetails` (
 
 INSERT INTO `enrolldetails` (`uid`, `name`, `email`, `year`, `password`, `department`) VALUES
 (11, 'Pinky', 'r@gmail.com', 2, 'rat@123456', 'CSE'),
-(15, 'Preeti krishnaveni', 'bmspr1502@gmail.com', 4, 'al;skdfj', 'cs');
+(15, 'Preeti krishnaveni', 'bmspr1502@gmail.com', 4, 'al;skdfj', 'cs'),
+(16, 'Preeti krishnaveni', 'ratchabalaaaa@gmail.com', 4, 'asdfsadf', 'cs'),
+(17, 'Preeti krishnaveni', 'test@gmail.com', 4, 'cadfasdfg', 'cs');
 
 -- --------------------------------------------------------
 
@@ -103,11 +105,17 @@ CREATE TABLE `mentordetails` (
 --
 
 INSERT INTO `mentordetails` (`mid`, `email`, `name`, `password`, `year`, `domain`, `description`, `display`) VALUES
-(1, 'y@mail.com', 'jueh', '4343', 4, 2, 'bhalllll', 1),
-(2, 'u@mai.com', 'njendkjnejkdn', '23', 1, 3, 'jkdjhfjrhnfjirf', 1),
-(3, 'test@gmail.com', 'Preeti krishnaveni', 'test', 3, 4, 'asdfasdfasgsfgfgasfgaf', 1),
-(4, 'fadsf', 'aefdf', 'fasdfasdf', 3, 2, 'fdasfasf', 1),
-(5, 'r@gmail.com', 'Pinky', 'rat@123456', 2, 1, 'uuuuuuuu', 1);
+(1, 'y@mail.com', 'Praveen Rao', '4343', 4, 2, 'C programming ', 1),
+(2, 'u@mai.com', 'Venu Gopal', '23', 1, 3, 'DSA', 1),
+(3, 'bmspr1502@gmail.com', 'Preeti krishnaveni', 'asdfasdfasd', 3, 1, 'OPERATING SYSTEMS', 1),
+(4, 'fadsf', 'bhagath Ambati', 'fasdfasdf', 3, 2, 'DBMS', 1),
+(5, 'r@gmail.com', 'SaiRam Reddy', 'rat@123456', 2, 1, 'PYTHON PROGRAMMING', 1),
+(8, 'hemanth12@gmail.com', 'HEMANTH', '567432', 2, 3, 'DSA', 1),
+(10, 'nikitha@gmail.com', 'nikitha', '44586', 4, 4, 'Operating Sysytems', 0),
+(11, 'yogalaxmi@gmail.com', 'Yogalaxmi ', '59214552', 1, 5, 'DSA', 0),
+(12, 'chandranikitha@gmail.com', 'CHANDRANIKITHA', '497555', 4, 4, 'C++ programming', 0),
+(13, 'ratchabalaaaa@gmail.com', 'Preeti krishnaveni', 'adsfasdf', 4, 3, 'i love', 1),
+(14, 'ratchabala@gmail.com', 'Preeti krishnaveni', 'ljhjkhk', 4, 3, 'asdf ;lkj ', 1);
 
 -- --------------------------------------------------------
 
@@ -134,7 +142,10 @@ INSERT INTO `user` (`id`, `username`, `studentemail`, `mentoremail`, `sender_id`
 (2, 'Preeti krishnaveni', NULL, 'lfgjjk@asdf.com', NULL, NULL, NULL),
 (3, 'Preeti krishnaveni', NULL, 'lfgjjk@asdf.com', NULL, NULL, NULL),
 (4, 'Preeti krishnaveni', NULL, 'preetikrishnaveni19@gmail.com', NULL, NULL, NULL),
-(5, 'Preeti krishnaveni', 'bmspr1502@gmail.com', NULL, NULL, NULL, NULL);
+(5, 'Preeti krishnaveni', 'bmspr1502@gmail.com', NULL, NULL, NULL, NULL),
+(6, 'Preeti krishnaveni', 'ratchabalaaaa@gmail.com', NULL, NULL, NULL, NULL),
+(7, 'Preeti krishnaveni', 'test@gmail.com', NULL, NULL, NULL, NULL),
+(8, 'asdfafga', 'bmspr1502@gmail.com', NULL, NULL, NULL, NULL);
 
 --
 -- Indexes for dumped tables
@@ -192,19 +203,19 @@ ALTER TABLE `domain`
 -- AUTO_INCREMENT for table `enrolldetails`
 --
 ALTER TABLE `enrolldetails`
-  MODIFY `uid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `uid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 
 --
 -- AUTO_INCREMENT for table `mentordetails`
 --
 ALTER TABLE `mentordetails`
-  MODIFY `mid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `mid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
