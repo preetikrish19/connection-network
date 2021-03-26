@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,7 +19,7 @@
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
-
+  
   <div class="collapse navbar-collapse" id="collapsibleNavbar" class = "navbar justify-content-end">
   <ul class="navbar-nav">
     <li class="nav-item">
@@ -36,18 +35,19 @@
       <a class="nav-link" href="#">Be a mentor</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="enroll.php">Enroll</a>
+      <a class="nav-link" href="#">Enroll</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Domains</a>
+      <a class="nav-link" href="domain.php">Domains</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="index.php#footer">Contact</a>
+      <a class="nav-link" href="#">Contact</a>
     </li>
   </ul>
-  </div>
+  </div>  
 </nav>
 
+</head>
 <body>
 
 <div id="demo" class="carousel slide" data-ride="carousel">
@@ -62,21 +62,21 @@
       <div class="carousel-caption">
         <h3>Los Angeles</h3>
         <p>We had such a great time in LA!</p>
-      </div>
+      </div>   
     </div>
     <div class="carousel-item">
       <img src="images/imf.jpg" alt="Chicago">
       <div class="carousel-caption">
         <h3>Chicago</h3>
         <p>Thank you, Chicago!</p>
-      </div>
+      </div>   
     </div>
     <div class="carousel-item">
       <img src="images/imf.jpg" alt="New York">
       <div class="carousel-caption">
         <h3>New York</h3>
         <p>We love the Big Apple!</p>
-      </div>
+      </div>   
     </div>
   </div>
   <a class="carousel-control-prev" href="#demo" data-slide="prev">
@@ -86,13 +86,7 @@
     <span class="carousel-control-next-icon"></span>
   </a>
 </div>
-hiii
-<div id="footer">
-
-<?php
-  include('footer.php')
-?>
-</div>
-
 </body>
 </html>
+
+

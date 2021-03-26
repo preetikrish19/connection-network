@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="sytle.css">
 <style>
 body {
-  background-image: url(background.jpeg);
+  background-image: url(images/background.jpeg);
   background-repeat: no-repeat;
         background-size: cover;
 }
