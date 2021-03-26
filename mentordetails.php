@@ -9,6 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $domain = $con->real_escape_string($_POST['domain']);
   $description = $con->real_escape_string($_POST['description']);
   $_SESSION['email']=$email;
+  $_SESSION['login'] = 1;
   $email = stripcslashes($email);
   $name = stripcslashes($name);
   $password = stripcslashes($password);
