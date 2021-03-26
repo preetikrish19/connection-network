@@ -15,6 +15,7 @@
 body {
   background-image: url(images/background.jpeg);
   background-repeat: no-repeat;
+  background-position: center;
         background-size: cover;
 }
 </style>
