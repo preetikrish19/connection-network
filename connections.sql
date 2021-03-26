@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.3
+-- version 5.0.2
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost
--- Generation Time: Mar 26, 2021 at 12:35 AM
--- Server version: 10.4.14-MariaDB
--- PHP Version: 7.2.34
+-- Host: 127.0.0.1
+-- Generation Time: Mar 26, 2021 at 05:49 AM
+-- Server version: 10.4.13-MariaDB
+-- PHP Version: 7.4.8
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -32,6 +32,37 @@ CREATE TABLE `domain` (
   `dname` int(11) NOT NULL,
   `ddescription` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `enrolldetails`
+--
+
+CREATE TABLE `enrolldetails` (
+  `name` varchar(30) NOT NULL,
+  `email` varchar(30) NOT NULL,
+  `year` tinyint(4) NOT NULL,
+  `password` varchar(20) NOT NULL,
+  `department` varchar(30) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `enrolldetails`
+--
+
+INSERT INTO `enrolldetails` (`name`, `email`, `year`, `password`, `department`) VALUES
+('Pinky', 'r@gmail.com', 2, 'rat@123456', 'CSE'),
+('rat', 'r@gmail.com', 2, 'rat@123456', 'CSE'),
+('rat', 'r@gmail.com', 2, 'rat@123456', 'CSE'),
+('rat', 'r@gmail.com', 2, 'rat@123456', 'CSE'),
+('rat', 'r@gmail.com', 2, 'rat@123456', 'CSE'),
+('Pinky', 'r@gmail.com', 2, 'rat@123456', 'CSE'),
+('Pinky', 'r@gmail.com', 2, 'rat@123456', 'CSE'),
+('Pinky', 'r@gmail.com', 2, 'rat@123456', 'CSE'),
+('Pinky', 'r@gmail.com', 2, 'rat@123456', 'CSE'),
+('Pinky', 'r@gmail.com', 2, 'rat@123456', 'CSE'),
+('Pinky', 'r@gmail.com', 2, 'rat@123456', 'CSE');
 
 -- --------------------------------------------------------
 
