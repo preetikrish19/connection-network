@@ -34,7 +34,7 @@ if($_SESSION['login'] == 0){
       <a class="nav-link" href="#">About</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Find a mentor</a>
+      <a class="nav-link" href="mentorlist.php">Find a mentor</a>
     </li>
     <!--
 
@@ -139,7 +139,7 @@ hiii
       <a class="nav-link" href="#">About</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Find a mentor</a>
+      <a class="nav-link" href="mentorlist.php">Find a mentor</a>
     </li>
     <!--
     <li class="nav-item">
@@ -244,7 +244,7 @@ hiii
        <a class="nav-link" href="#">About</a>
      </li>
      <li class="nav-item">
-       <a class="nav-link" href="#">Find a mentor</a>
+       <a class="nav-link" href="mentorlist.php">Find a mentor</a>
      </li>
 
      <li class="nav-item">
