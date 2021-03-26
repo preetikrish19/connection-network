@@ -320,8 +320,6 @@ if($_SESSION['login'] == 0){
     <div class="carousel-item">
       <img src="images/mentor mentee(2).jpeg" alt="New York">
       <div class="carousel-caption">
-        <h3>New York</h3>
-        <p>We love the Big Apple!</p>
       </div>
     </div>
   </div>
