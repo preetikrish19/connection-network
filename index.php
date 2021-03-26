@@ -1,12 +1,7 @@
 <?php
 session_start();
-<<<<<<< Updated upstream
 if(isset($_SESSION['login'])){
 if($_SESSION['login'] == 0){
-=======
-echo $_SESSION['login'];
-if($_SESSION['login']==0){
->>>>>>> Stashed changes
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -75,13 +70,13 @@ if($_SESSION['login']==0){
       <div class="carousel-caption">
         <h3>We’re here for a reason. I believe a bit of the reason</h3>
         <h3>is to throw little torches out to lead people through the dark</h3>
-      </div>   
+      </div>
     </div>
     <div class="carousel-item">
       <img src="images/mentor mentee(1).jpeg" alt="Chicago">
       <div class="carousel-caption">
         <h3>Consultant | Counselor | Cheerleader</h3>
-      </div>   
+      </div>
     </div>
     <div class="carousel-item">
       <img src="images/mentor mentee(2).jpeg" alt="New York">
@@ -106,11 +101,11 @@ if($_SESSION['login']==0){
     <h1 id="heading">About</h1>
     <p>
     Computer technology has become an integral part of our daily life. It is the most important element in the education
-     of students of the present and the future era. Computer Technology has revolutionized society to a great extent. 
-     Technological advancements are so rapid in this field that continual learning is essential to keep the skill set 
-     of students up to date. The department of Computer Technology was recently established in MIT campus of Anna University 
-     by bifurcating the department of Information Technology. The department offers course in computer science and engineering 
-     at undergraduate & postgraduate levels and full time/part time research programs. 
+     of students of the present and the future era. Computer Technology has revolutionized society to a great extent.
+     Technological advancements are so rapid in this field that continual learning is essential to keep the skill set
+     of students up to date. The department of Computer Technology was recently established in MIT campus of Anna University
+     by bifurcating the department of Information Technology. The department offers course in computer science and engineering
+     at undergraduate & postgraduate levels and full time/part time research programs.
     The teaching and learning process emphasizes equally on theoretical and practical aspects catering to the needs of industries.
  </p>
      </div>
@@ -196,13 +191,13 @@ if($_SESSION['login']==0){
       <div class="carousel-caption">
         <h3>We’re here for a reason. I believe a bit of the reason</h3>
         <h3>is to throw little torches out to lead people through the dark</h3>
-      </div>   
+      </div>
     </div>
     <div class="carousel-item">
       <img src="images/mentor mentee(1).jpeg" alt="Chicago">
       <div class="carousel-caption">
         <h3>Consultant | Counselor | Cheerleader</h3>
-      </div>   
+      </div>
     </div>
     <div class="carousel-item">
       <img src="images/mentor mentee(2).jpeg" alt="New York">
@@ -227,11 +222,11 @@ if($_SESSION['login']==0){
     <h1 id="heading">About</h1>
     <p>
     Computer technology has become an integral part of our daily life. It is the most important element in the education
-     of students of the present and the future era. Computer Technology has revolutionized society to a great extent. 
-     Technological advancements are so rapid in this field that continual learning is essential to keep the skill set 
-     of students up to date. The department of Computer Technology was recently established in MIT campus of Anna University 
-     by bifurcating the department of Information Technology. The department offers course in computer science and engineering 
-     at undergraduate & postgraduate levels and full time/part time research programs. 
+     of students of the present and the future era. Computer Technology has revolutionized society to a great extent.
+     Technological advancements are so rapid in this field that continual learning is essential to keep the skill set
+     of students up to date. The department of Computer Technology was recently established in MIT campus of Anna University
+     by bifurcating the department of Information Technology. The department offers course in computer science and engineering
+     at undergraduate & postgraduate levels and full time/part time research programs.
     The teaching and learning process emphasizes equally on theoretical and practical aspects catering to the needs of industries.
  </p>
      </div>
@@ -295,7 +290,7 @@ if($_SESSION['login']==0){
      <li class="nav-item">
        <a class="nav-link" href="index.php#footer">Contact</a>
      </li>
-    
+
    </ul>
    </div>
  </nav>
@@ -314,13 +309,13 @@ if($_SESSION['login']==0){
       <div class="carousel-caption">
         <h3>We’re here for a reason. I believe a bit of the reason</h3>
         <h3>is to throw little torches out to lead people through the dark</h3>
-      </div>   
+      </div>
     </div>
     <div class="carousel-item">
       <img src="images/mentor mentee(1).jpeg" alt="Chicago">
       <div class="carousel-caption">
         <h3>Consultant | Counselor | Cheerleader</h3>
-      </div>   
+      </div>
     </div>
     <div class="carousel-item">
       <img src="images/mentor mentee(2).jpeg" alt="New York">
@@ -345,11 +340,11 @@ if($_SESSION['login']==0){
     <h1 id="heading">About</h1>
     <p>
     Computer technology has become an integral part of our daily life. It is the most important element in the education
-     of students of the present and the future era. Computer Technology has revolutionized society to a great extent. 
-     Technological advancements are so rapid in this field that continual learning is essential to keep the skill set 
-     of students up to date. The department of Computer Technology was recently established in MIT campus of Anna University 
-     by bifurcating the department of Information Technology. The department offers course in computer science and engineering 
-     at undergraduate & postgraduate levels and full time/part time research programs. 
+     of students of the present and the future era. Computer Technology has revolutionized society to a great extent.
+     Technological advancements are so rapid in this field that continual learning is essential to keep the skill set
+     of students up to date. The department of Computer Technology was recently established in MIT campus of Anna University
+     by bifurcating the department of Information Technology. The department offers course in computer science and engineering
+     at undergraduate & postgraduate levels and full time/part time research programs.
     The teaching and learning process emphasizes equally on theoretical and practical aspects catering to the needs of industries.
  </p>
      </div>
